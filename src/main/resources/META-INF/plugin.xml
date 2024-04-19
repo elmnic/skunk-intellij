@@ -1,0 +1,35 @@
+<idea-plugin>
+
+    <!-- Unique id for this plugin. Must stay constant for the life of the plugin. -->
+    <id>com.pagero.SkunkSupport</id>
+
+    <!-- Text to display as name on Settings | Plugin page -->
+    <name>Pagero Skunk Interpolation</name>
+
+    <version>3.0</version>
+
+    <!-- Text to display as company information on Settings | Plugin page -->
+    <vendor>Pagero</vendor>
+
+    <idea-version since-build="2018.1.0" until-build="2024.3"/>
+
+    <!-- Product and plugin compatibility requirements -->
+<!--    <depends>com.intellij.modules.platform</depends>-->
+    <depends>org.jetbrains.plugins.scala.lang.macros.evaluator.ScalaMacroExpandable</depends>
+
+    <!-- Text to display as description on Settings | Plugin page -->
+    <description>This provides type inference for skunk macros</description>
+    <change-notes>
+        <![CDATA[
+      <ul>
+        <li><b>3.0</b> Bumped until-build to 2024.3, changed versioning scheme</li>
+        <li><b>0.1.0</b> Initial fork, bumped until-build to 2023.3</li>
+      </ul>
+    ]]>
+    </change-notes>
+
+    <extensions>
+        <skunkSupport implementation="com.pagero.SkunkSupport"/>
+    </extensions>
+
+</idea-plugin>
