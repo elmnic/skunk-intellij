@@ -3,7 +3,7 @@
     <name>Pagero Skunk Interpolation</name>
     <version>3.0</version>
     <vendor>Pagero</vendor>
-    <idea-version since-build="2018.1.0" until-build="2024.3"/>
+    <idea-version since-build="2018.1.0" until-build="241.*"/>
 
     <!-- Product and plugin compatibility requirements -->
 <!--    <depends>org.intellij.scala</depends>-->
