@@ -15,7 +15,7 @@
 
     <!-- Product and plugin compatibility requirements -->
 <!--    <depends>com.intellij.modules.platform</depends>-->
-    <depends>org.jetbrains.plugins.scala.lang.macros.evaluator.ScalaMacroExpandable</depends>
+<!--    <depends>org.jetbrains.plugins.scala.lang.macros.evaluator.ScalaMacroExpandable</depends>-->
 
     <!-- Text to display as description on Settings | Plugin page -->
     <description>This provides type inference for skunk macros</description>
