@@ -1,7 +1,7 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/pagero/skunk-intellij">
     <id>com.pagero.SkunkSupport</id>
     <name>Pagero Skunk Interpolation</name>
-    <version>3.0</version>
+    <version>1.0.0</version>
     <vendor>Pagero</vendor>
     <idea-version since-build="2018.1.0" until-build="241.*"/>
 
