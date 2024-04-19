@@ -16,7 +16,7 @@ available at this repository.
     -->
     <plugin
             id="com.pagero.SkunkSupport"
-            url="https://github.com/elmnic/skunk-intellij/releases/download/v0.3/skunk-intellij.jar"
+            url="https://github.com/elmnic/skunk-intellij/releases/download/v0.4/skunk-intellij.jar"
             version="3.0">
         <!--
         The <idea-version> element (required) must match the same element
